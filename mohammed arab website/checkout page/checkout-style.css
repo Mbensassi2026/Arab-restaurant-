@@ -1,0 +1,72 @@
+/* Checkout Form Styling */
+.col-50, .col-75 {
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+/* Center the header title */
+.header-center {
+    text-align: center;
+    padding: 5px;
+}
+
+body{
+    background-image: url('https://t3.ftcdn.net/jpg/03/36/89/24/360_F_336892491_aZIazKCweTtVXT4BT8I2OxOlNwk1JV7j.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Style for payment icons */
+.icon-container {
+    margin-bottom: 20px;
+}
+
+.icon-container i {
+    font-size: 30px;
+    margin: 10px;
+}
+
+/* Style for the "Continue to checkout" button */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Style for the checkbox label */
+label {
+    display: block;
+    margin-top: 10px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    text-align: center;
+}
+

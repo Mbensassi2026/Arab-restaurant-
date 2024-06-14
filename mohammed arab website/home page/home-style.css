@@ -1,0 +1,57 @@
+head{
+    text-align: left;
+  }
+  body {
+    font-family: "Caveat", Caveat, Serif;
+    text-align: center;
+    background-image: url('https://t3.ftcdn.net/jpg/03/36/89/24/360_F_336892491_aZIazKCweTtVXT4BT8I2OxOlNwk1JV7j.jpg'); /* Replace 'path/to/your-image.jpg' with the actual path to your image */
+    background-size: cover; /* This will make the image cover the entire viewport */
+    background-attachment: fixed; /* This will fix the background image in place */
+  
+  }
+  
+    .content {
+      max-width: 1100px;
+      margin: 0 auto;
+      position: relative;
+    }
+  /* Updated CSS for the navigation bar */
+  top.bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .top .left {
+      text-align: left;
+      margin-left: 20px;
+  }
+  
+  .top .right {
+      text-align: center;
+  }
+  
+  header {
+      max-width: 1600px;
+      min-width: 500px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+  }
+  img.image {
+      display: block;
+      margin: 0 auto;
+  }
+  
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: white;
+        text-align: center;
+    }
+
+   
+

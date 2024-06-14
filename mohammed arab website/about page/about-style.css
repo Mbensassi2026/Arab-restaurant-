@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://t3.ftcdn.net/jpg/03/36/89/24/360_F_336892491_aZIazKCweTtVXT4BT8I2OxOlNwk1JV7j.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+}
+
+.header img {
+    max-width: 100%;
+    width: 110%;
+    height: 520px;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    color: white;
+    font-size: 2em;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Add this CSS code to style the "Restaurant Hours" section */
+.restaurant-hours {
+    text-align: center;
+    padding: 20px; /* Add some padding for spacing */
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    padding: 40px 80px; /* Add some padding for spacing */
+}
+
+.content-container p {
+    font-weight: bold;
+    color:black; /* You can adjust the color as needed */
+    font-family: 'cursive', fantasy; /* Fancy font */
+}
+
+.title {
+    color: white;
+    font-size: 2em; /* Adjust the font size to make it bigger */
+}
+
+.spacer {
+    height: 50px; /* Add space between content and footer */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    text-align: center;
+}

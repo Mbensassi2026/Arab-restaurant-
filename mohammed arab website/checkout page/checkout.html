@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="checkout-style.css">
+    <title>Checkout - Arabian Oasis Cuisine</title>
+</head>
+<body>
+    <header class="header-center">
+      <h1>Checkout</h1>
+    </header>
+    <div class="checkout-content" style="margin-bottom: 20px;">        
+         <div class="container">
+            <form action="/action_page.php">
+                <!-- Billing Address and Payment form content -->
+                <div class="row">
+                    <div class="col-50">
+                        <h3>Billing Address</h3>
+                        <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                        <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                        <input type="text" id="email" name="email" placeholder="john@example.com">
+                        <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                        <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                        <label for="city"><i class="fa fa-institution"></i> City</label>
+                        <input type="text" id="city" name="city" placeholder="New York">
+                        <label for="zip"><i class="fa fa-location-arrow"></i> Zip Code</label>
+                        <input type="text" id="zip" name="zip" placeholder="12345">
+                    </div>
+
+                    <div class="col-50">
+                        <h3>Payment</h3>
+                        <img src="debit cards new.webp" alt="Card Logos" width="500">
+                            <div class="icon-container">
+                            <i class="fa fa-cc-visa" style="color:navy;"></i>
+                            <i class="fa fa-cc-amex" style="color:blue;"></i>
+                            <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                            <i class="fa fa-cc-discover" style="color:orange;"></i>
+                        </div>
+                        
+                        <div class="credit-card-box">
+                            <label for="cname">Name on Card</label>
+                            <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                            
+                            <label for="ccnum">Credit card number</label>
+                            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                            
+                            <div class="expiration-date">
+                              <div>
+                                <label for="expmonth">Expiration Date</label>
+                                <input type="text" id="expmonth" name="expmonth" placeholder="MM" maxlength="2">
+                              </div>
+                              <div>
+                                <label for="expyear"></label>
+                                <input type="text" id="expyear" name="expyear" placeholder="YY" maxlength="2">
+                              </div>
+                            </div>
+                            
+                            <label for="cvv">CVV</label>
+                            <input type="text" id="cvv" name="cvv" class="cvv" placeholder="CVV">
+                          </div>
+                </div>
+                <label>
+                    <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+                </label>
+                <input type="submit" value="Place Your Order" class="btn">
+            </form>
+
+
+        </div>
+    </div>
+<!-- Footer -->
+<footer class="bar white padding card" style="letter-spacing: 4px;">
+    <p>&copy; 2023 Arabian Oasis Cuisine. All rights reserved.</p>
+    </footer>
+
+    <script src="checkout-script.js"></script>
+
+</body>
+</html>
